@@ -1,0 +1,937 @@
+ *{
+    font-family: 'Inter', sans-serif;
+    transition: .3s;
+ }
+/* this is for the header */
+html{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E2E8F0;
+    margin-top: 0px;
+}
+.navlogo {
+    display: flex;
+    justify-content: center;
+    
+}
+.navlogo img {
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+
+}
+.register{
+    display: flex;
+    justify-content: center;
+    
+}
+.register ul{
+    /* margin: 50px; */
+    justify-content: center;
+     margin-top: 25px;
+     margin-bottom: 0px;
+     
+    list-style: none;
+    display: flex;
+    color:#334155;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.register ul li{
+    /* margin-left: 50px; */
+    margin-inline: 25px;
+}
+.searchBar{
+    display: flex;
+    padding: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 591px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: none;
+    border: 2px solid #E2E8F0;
+}
+.vertical{
+    height: 39px;
+    width: 1px;
+    background-color: #E2E8F0;
+
+    
+}
+/* this is for the body */
+/* this is for the body */
+
+/* this is for the body */
+
+/* this is for the body */
+
+/* this is for the body */
+
+
+.imageproduct{
+    width: 1022px;
+    margin-left: 20px;
+height: 561px;
+border-radius: 5px;
+border: 1px solid var(--slate-200, #E2E8F0);
+}
+.accesories{
+    
+    padding: 14px;
+    border-style: none;
+    box-shadow: none;
+    border: 2px solid #E2E8F0;
+    border-radius: 2px;
+    
+    height: 19px; 
+    height: 16px;
+
+}
+.accesoriesgrp{
+    display: flex;
+    flex-direction: column;
+    width: 350px;    
+    margin-right: 0px;
+    
+}
+.imageaccesori{
+    margin-bottom: -10px;
+;}
+.section1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 31px;
+
+} 
+
+
+/* this is for section 2
+this is for section 2
+this is for section 2
+this is for section 2
+this is for section 2
+this is for section 2 */
+
+.section2{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(4,1fr);
+
+
+}
+
+.bestR{
+color:#334155;
+
+font-family: Inter;
+font-size: 34.38px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.rect{
+
+width: 404px;
+height: 489px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #E2E8F0;
+margin: 0px;
+}
+.moneyLine{
+    display: flex;
+    margin: 0px;
+    padding-right: 215px;
+    justify-content: space-around;
+}
+.mnidesc{
+ color: #475569;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.88px;
+margin-top: 13px;
+margin-bottom: 13px;
+}
+.price{
+    color:#334155;
+
+font-family: Inter;
+font-size: 34.38px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -2.063px;
+}
+.oldprice{
+    color: #64748B;
+font-size: 27.5px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -1.65px;
+margin-top: 5px;
+}
+.starrect{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    background: #FACC15;
+    width: 100px;
+    height: 39px;
+
+}
+.starRating{
+    color: #F1F5F9;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.pstarsflex{
+    display: flex;
+    gap: 11px;
+    align-items: center;
+    padding-left: 10px;
+
+}
+.cimage{
+    width: 404px;
+    height: 306px;
+    border-radius: 5px 5px 0px 0px;
+    background: lightgray 50% / cover no-repeat;
+}
+/* this is for section 3
+this is for section 3
+this is for section 3
+this is for section 3
+this is for section 3
+this is for section 3 */
+.section3{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.section3 .rect {
+    width: 337px;
+    height: 439px;
+}
+.section3 .cimage{
+    width: 337px;
+height: 286.426px;
+}
+.section3 .moneyLine{
+    padding-right: 145px;
+}
+.section3 .mnidesc{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 8px;
+}
+
+/* section 3 is done */
+/* section 3 is done */
+/* section 3 is done */
+/* section 3 is done */
+.section4{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 44px;
+    margin-bottom: 187px;
+
+}
+.circles {
+    background-color: #E2E8F0;
+    
+
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+}
+
+/* section4 is done */
+.footerrect {
+    
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    margin-left: -14px;
+    margin-right: 0px;
+    background-color: #334155;
+    width: 101%;
+    height: 166px;
+    
+}
+.footerrect ul{
+    display: flex;
+    gap: 60px;
+    
+
+    list-style: none;
+
+    color: #F8FAFC;
+
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+.footerrect p{
+    display: flex;
+    color:  #94A3B8;
+    font-family: Inter;
+    font-size: 17.6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* this is just for text adjustments */
+.shiftedtex{
+    color: #94A3B8;
+    font-family: Inter;
+    font-size: 17.6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* ////////>>>>>>>>>>>>>>>>>>> Page 2 <<<<<<<<<<<<<<<<<<<<<\\\\\\\\\\\\\ */
+.sections{
+    display: flex;
+}
+.Producttags{
+    padding: 25px;
+    padding-top: 95px;
+    background-color: #ffffff;
+    border-right: 2px solid #E2E8F0;
+    width: 356px;
+    height: 2478px;
+}
+
+.ProductList{
+    background-color: #ffffff;
+    
+    width: 1140px;
+    height: 2743px; 
+}
+/* mini stuff */
+
+.headsort{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.headtext {
+    display: flex;
+    gap: 5px;
+}
+.headlefttext{
+    
+    margin-top: 38px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    color: #334155;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+.headlefttext1{
+    margin-top: 38px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    color: #EAB308;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+.mainsort{
+    display: flex;
+    margin-right: 40px;
+    margin-bottom: 0px;
+
+}
+#sort {
+    width: 202px;
+    height: 37px;
+    margin-top: 38px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    border: 2px solid #E2E8F0;
+    box-shadow: none;
+    border-radius: 5px;
+}
+
+/* taaags and freee shiping stuff */
+.freeshipingGrp{
+    display: flex;
+}
+.freeshiping{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 0px;
+    width: 202px;
+    height: 37px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 2px solid #E2E8F0;
+    background: #FFF;
+}
+.freeshipingGrp{
+display: flex;
+margin-top: 15px;
+margin-left: 30px;
+gap: 15px;
+
+}
+
+.freeshipingGrp .headlefttext1 {
+    margin: 0px;
+}
+.Productgrid .rect {
+    width: 337px;
+    height: 439px;
+}
+
+.Productgrid .cimage{
+    width: 337px;
+height: 286.426px;
+}
+.Productgrid .moneyLine{
+    padding-right: 145px;
+}
+.Productgrid .mnidesc{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 8px;
+}
+.Productgrid{
+    display: grid;
+    gap: 12px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr) ;
+}
+/* THIS IS FOR THE LEFT PART OF THE SECONDE PAGE */
+.minimark{
+    display: flex;
+    margin-left: 10px;
+}
+.textstylebold{
+   color: #334155;
+   font-family: Inter;
+   font-size: 26px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+    
+}
+
+
+
+/* this is the product delail page  
+this is the product delail page  
+this is the product delail page  
+this is the product delail page  
+this is the product delail page  
+this is the product delail page  
+this is the product delail page   */
+
+.sectionA1{
+display: flex;
+margin-top: 60px;
+margin-bottom: 20px;
+padding-bottom: 25px;
+border-bottom: 2px solid #E2E8F0;
+
+}
+.productdetails{
+    margin-left: 36px;
+}
+.productdetails .shiftedtex{
+    width: 439px;
+    margin-left: 12px;
+}
+.productdetails .textstylebold {
+    width: 439px; 
+}
+.smallimgs {
+    display: flex;
+    gap: 21px;
+    margin-top: 21px;
+}
+.clothessizebox{
+    display: flex;
+    /* padding-left: 10px; */
+    border: 2px solid #E2E8F0;
+    align-items: center;
+    border-radius: 5px;
+    width: 57px;
+    height: 42px;
+}
+.clothesSizeBoxegrp {
+    display: flex;
+    gap: 10px;
+
+}
+.colors1{
+    width: 31px;
+    height: 32px;
+    background-color: #A7F3D0;
+    border-radius: 50%;
+}
+.colors2{
+    width: 31px;
+    height: 32px;
+    background-color: #FACC15;
+    border-radius: 50%;
+}
+.colors3{
+    width: 31px;
+    height: 32px;
+    background-color: #0284C7;
+    border-radius: 50%;
+}
+.colors4{
+    width: 31px;
+    height: 32px;
+    background-color: #334155;
+    border-radius: 50%;
+}
+.colors{
+    display: flex;
+    gap: 15px;
+}
+.textstyletextandcolors {
+    display: flex;
+width: 44px;
+height: 16px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+
+
+    color: #475569;
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.moneyandheart{
+    display: flex;
+    justify-content: space-between;
+}
+.moneyandheart .heartcount{
+    display: flex;
+    align-items: center;
+    width: 68px;
+    height: 27px;
+    display: flex;
+    border: 2px solid #E2E8F0;
+    border-radius: 5px;
+
+}
+.heartcount .shiftedtex {
+    margin: 0px;
+}
+.medtextsize {
+margin: 0px;
+width: 91px;
+height: 48px;
+color: #475569;
+
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.addtocart{
+    margin-left: 20px;
+    padding: 15px;
+    width: 360px;
+    height: 460px;
+    border: 2px solid #E2E8F0;
+    background:#F1F5F9;
+
+}
+.shipto{
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #E2E8F0;
+
+}
+.shipping{
+    margin: 0px;
+    margin-top: 10px;
+
+    height: 105px;
+    align-items: center;
+    border-bottom: 2px solid #E2E8F0;
+}
+.shipping .shiftedtex{
+    margin: 0px;
+}
+.plus1minus{
+    width: 82px;
+    display: flex;
+    margin-top: 10px;
+
+    justify-content: space-between;
+    
+    }
+.addtocart .shiftedtex {
+    margin: 0px;
+}
+.plus1minus .medtextsize {
+    width: 10px;
+
+}
+.addtocartdelivery{
+    border-bottom: 2px solid #E2E8F0;
+
+}
+.addtocartdelivery {
+    margin-top: 10px;
+}
+.addtocardbuttonadd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 37px;
+    border: 1px solid #34d399;
+    background:#34D399;
+    box-shadow: 1px 2px 4px -1px rgba(41, 159, 116, 0.35);
+    margin-top: 5px;
+}
+.addtocardbuttonbuy{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 37px;
+    border: 2px solid #34D399;
+    background: #F8FAFC;
+}
+.chatshare{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8px;
+}
+.chatshare .vertical {
+    height: 25px;
+}
+.share {
+    display: flex;
+    gap: 10px;
+
+}
+.chat{
+    display: flex;
+    gap: 10px;
+
+}
+.textaddtocat {
+
+    
+    color: #F8FAFC;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.textbuynow {
+color:#10B981;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.textimageaside{
+    display: flex;
+}
+.textimageasidetextsize{
+width: 721px;
+height: 470px;
+color:#94A3B8;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0px;
+
+}
+.textimagetoptextsize{
+    width: 1318px;
+    height: 185px;
+    color:  #94A3B8;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+}
+.sectionA2{
+    
+    border: 2px solid #E2E8F0;
+    padding-left: 24px;
+
+    width: 1387px;
+    height: 695px;
+}
+/* 
+:::::::::////// WE ARE NOW ON SEEEECCCCCTTTTIONNN A33333////////// */
+.commentprofileandreviews{
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    height: 66px;
+
+}
+.nameandtime .shiftedtex {
+    
+    margin: 0px;
+}
+.nameandtime .medtextsize{
+    height: 20px;
+    margin: 0px;
+}
+.commentprofileandreviews .profileandname{
+    display:flex;
+    
+}
+
+.nameandtime {
+
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 220px;
+
+}
+.comment .medtextsize{
+    width: 746px;
+}
+.comment .medtextsize1{
+    width: 720px;
+    margin: 0px;
+    margin-left: 50px;
+    
+
+    height: 48px;
+    color: #475569;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.comment{
+    height: 160px;
+}
+.reviewscoments {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.sectionA3 .vertical {
+    height: 550px;
+}
+.reviewsstats{
+    width: 550px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.sectionA3{
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+.mainPage .section2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.mainPage .section2 .rect {
+    width: 337px;
+    height: 439px;
+}
+.mainPage .section2 .cimage{
+    width: 337px;
+height: 286.426px;
+}
+.mainPage .section2 .moneyLine{
+    padding-right: 145px;
+}
+.mainPage .section2 .mnidesc{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 8px;
+}
+
+
+/* this is for the last page 
+this issss fooor the last page 
+I repeaaaaate this is for the last page
+aka paaaaaaaaaaaage 444444 or order page */
+
+.orderDetails {
+    width: 622px;
+    height: 446px;
+    padding: 15px;
+    border: 2px solid #E2E8F0;
+}
+
+.orderDetails .shiftedtex {
+    
+    margin-left: 15px;
+}
+.subtotal,.fees,.totaladdtocart{
+    display: flex;
+    justify-content: space-between;
+
+}
+.totaladdtocart .shiftedtex {
+    margin-top: 30px;
+}
+.orderDetails .addtocardbuttonadd {
+    width: 602px;
+    height: 61px;
+
+}
+.greenrect {
+    margin-top: 15px;
+    width: 22px;
+    height: 22px;
+    background:  #22C55E;
+    border-radius: 5px;
+}
+.selectall {
+    display: flex;
+    
+    margin: 0px;
+    width: 91px;
+    height: 48px;
+    color: #475569;
+
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.mainorderpage{
+    display: flex;
+   
+}
+.selectall{
+    display: flex;
+    border-bottom: 2px solid #E2E8F0;
+    gap: 20px;
+    width: 694px;
+}
+.orderlistdetailsmainstuf{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 50px;
+}
+.shpingAndIncreaseDecrease{
+    display: flex;
+    gap: 180px;
+}
+
+.trashandheart{
+    display: flex;
+    justify-content: space-between;
+}
+.trashandheart .textstylebold {
+    margin: 0px;
+}
+.selectaVariant{
+display: flex;
+justify-content: center;
+align-items: center;
+
+color: #475569;
+
+
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+background-color: #E2E8F0;
+width: 225px;
+height: 41px;
+border-radius: 50px;
+margin: 0px;
+margin-top: 10px;
+margin-bottom: 10px;
+
+
+}
+.namevariantAndPrice .shiftedtex {
+    margin: 0px;
+    margin-top: 10px;
+}
+.namevariantAndPrice .tebxtstylebold{
+    margin: 0px;
+}
+.textdecoratin{
+    text-decoration: none;
+}
+
+/* ////////////////////////////////////animations for all pages*/
+.rect:hover{
+    box-shadow: 1px 1px 2px 4px #E2E8F0;
+}
+.searchBar:hover{
+    background-color: #E2E8F0;
+}
+.colors1:hover ,.colors2:hover,.colors3:hover,.colors4:hover{
+    width: 40px;
+    height: 40px;
+}
+.addtocardbuttonadd:hover{
+    height: 40px;
+    box-shadow: 1px 1px 2px 2px #2caf7f;
+}
