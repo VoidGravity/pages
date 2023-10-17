@@ -11,6 +11,7 @@ html{
 nav{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     border-bottom: 1px solid #E2E8F0;
     margin-top: 0px;
 }
@@ -27,10 +28,12 @@ nav{
 }
 .register{
     display: flex;
+    
     justify-content: center;
     
 }
 .register ul{
+    flex-wrap: wrap;
     /* margin: 50px; */
     justify-content: center;
      margin-top: 25px;
@@ -56,7 +59,7 @@ nav{
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 30px;
-    width: 591px;
+    width: 100%;
     border-radius: 5px;
     border-style: none;
     box-shadow: none;
@@ -82,9 +85,9 @@ nav{
 .imageproduct{
     width: 1022px;
     margin-left: 20px;
-height: 561px;
-border-radius: 5px;
-border: 1px solid var(--slate-200, #E2E8F0);
+
+    border-radius: 5px;
+    border: 1px solid var(--slate-200, #E2E8F0);
 }
 .accesories{
     
@@ -107,10 +110,11 @@ border: 1px solid var(--slate-200, #E2E8F0);
 }
 .imageaccesori{
     margin-bottom: -10px;
-;}
+}
 .section1{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 31px;
 
 } 
@@ -339,6 +343,7 @@ height: 286.426px;
 
 .headsort{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 
 
@@ -392,6 +397,7 @@ height: 286.426px;
 /* taaags and freee shiping stuff */
 .freeshipingGrp{
     display: flex;
+    flex-wrap: wrap;
 }
 .freeshiping{
     display: flex;
@@ -470,6 +476,7 @@ this is the product delail page   */
 
 .sectionA1{
 display: flex;
+flex-wrap: wrap;
 margin-top: 60px;
 margin-bottom: 20px;
 padding-bottom: 25px;
@@ -785,6 +792,10 @@ margin: 0px;
     margin-bottom: 50px;
 
 }
+.mainorderpage{
+    display: flex;
+    flex-wrap: wrap;
+}
 .mainPage .section2{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -935,3 +946,94 @@ margin-bottom: 10px;
     height: 40px;
     box-shadow: 1px 1px 2px 2px #2caf7f;
 }
+
+.sectionA3 {
+ flex-wrap: wrap;       
+}
+.textimagetoptextsize{
+    width: 100%;
+}
+
+
+/* //////////////////jjj=llll////making the reponsive */
+
+
+@media (max-width: 1400px) {    
+        .textimagetoptextsize{
+            font-size: 20px;
+            max-width: 80%;
+        }
+        .textimageasidetextsize{
+            font-size: 20px;
+            max-width: 80%;
+        }
+    .starw{
+        width: 15px;
+    }
+    .textdecoratin .starrect {
+        width: 50px;
+        height: 20px;
+    }
+    .textdecoratin .starRating{
+        font-size: 12px;
+    }
+    .textdecoratin .price{
+        font-size: 20px;
+    }
+    .textdecoratin .oldprice{
+        font-size: 15px;
+    }
+
+    .textdecoratin .rect {
+        width: 168px;
+        height: 250px;
+    }
+    .textdecoratin .cimage{
+        width: 168px;
+    height: 143px;
+    }
+    .textdecoratin .moneyLine{
+        padding-right: 72px;
+    }
+    .textdecoratin .mnidesc{
+        font-size: 10px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        margin-left: 4px;
+    }
+
+    .Productgrid{
+        grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(5,1fr) ;
+
+    }
+    
+    .section2{
+
+        grid-template-columns: repeat(2,1fr);
+
+
+    }
+    .imageproduct{
+        width: 400px;
+    }
+    .section3{
+
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4,1fr);
+    }
+}
+@media (max-width: 750px) {
+    
+    .section2{
+
+        grid-template-columns: 1fr;
+
+
+    }
+    .section3{
+
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8,1fr);
+    }
+}   
