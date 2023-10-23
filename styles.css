@@ -3,10 +3,10 @@
     transition: .3s;
  }
 /* this is for the header */
-html{
+/* html{
     margin-left: 5px;
     margin-right: 5px;
-}
+} */
 
 nav{
     display: flex;
@@ -17,14 +17,21 @@ nav{
 }
 .navlogo {
     display: flex;
-    justify-content: center;
-    
+    width: 45%;
 }
 .navlogo img {
     margin-top: 10px;
     margin-bottom: 0px;
 
 
+}
+.collaps-button{
+    display: none;
+    justify-content: flex-end;
+    margin-right: 2%;
+    border: none;
+    background: none;
+    cursor: pointer;
 }
 .register{
     display: flex;
@@ -33,6 +40,7 @@ nav{
     
 }
 .register ul{
+    display: flex;
     flex-wrap: wrap;
     /* margin: 50px; */
     justify-content: center;
@@ -40,7 +48,7 @@ nav{
      margin-bottom: 0px;
      
     list-style: none;
-    display: flex;
+    
     color:#334155;
 
     font-family: Inter;
@@ -64,6 +72,9 @@ nav{
     border-style: none;
     box-shadow: none;
     border: 2px solid #E2E8F0;
+}
+.searchBar-container{
+    width: 100%;
 }
 .vertical{
     height: 39px;
@@ -276,6 +287,7 @@ height: 286.426px;
     
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 
     align-items: center;
     justify-content: center;
@@ -285,6 +297,20 @@ height: 286.426px;
     width: 101%;
     height: 166px;
     
+}
+.contactUs-footer-text{
+  
+
+    list-style: none;
+
+    color: #F8FAFC;
+
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 25px;
 }
 .footerrect ul{
     display: flex;
@@ -330,7 +356,7 @@ height: 286.426px;
     background-color: #ffffff;
     border-right: 2px solid #E2E8F0;
     width: 356px;
-    height: 2478px;
+    height: 100%;
 }
 
 .ProductList{
@@ -481,6 +507,7 @@ margin-top: 60px;
 margin-bottom: 20px;
 padding-bottom: 25px;
 border-bottom: 2px solid #E2E8F0;
+justify-content: space-around;
 
 }
 .productdetails{
@@ -594,6 +621,11 @@ line-height: normal;
     background:#F1F5F9;
 
 }
+.AddToCardButtonEvent{
+    border: none;
+    background: none;
+    margin-left: -5px;
+}
 .shipto{
     margin: 0px;
     display: flex;
@@ -644,6 +676,7 @@ line-height: normal;
     background:#34D399;
     box-shadow: 1px 2px 4px -1px rgba(41, 159, 116, 0.35);
     margin-top: 5px;
+ 
 }
 .addtocardbuttonbuy{
     margin-top: 5px;
@@ -691,8 +724,10 @@ line-height: normal;
 }
 .textimageaside{
     display: flex;
+    flex-wrap: wrap;
 }
 .textimageasidetextsize{
+    overflow: auto;
 width: 721px;
 height: 470px;
 color:#94A3B8;
@@ -701,9 +736,12 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 margin: 0px;
-
+}
+.textimageaside .textimageasidetextsize{
+    margin-top: 15px;
 }
 .textimagetoptextsize{
+    overflow: auto;
     width: 1318px;
     height: 185px;
     color:  #94A3B8;
@@ -714,11 +752,10 @@ margin: 0px;
     margin: 0px;
 }
 .sectionA2{
-    
     border: 2px solid #E2E8F0;
     padding-left: 24px;
-
-    width: 1387px;
+    overflow: auto;
+    width: 96%;
     height: 695px;
 }
 /* 
@@ -726,9 +763,8 @@ margin: 0px;
 .commentprofileandreviews{
     display: flex;
     justify-content: space-between;
-    width: 750px;
+    width: 90%;
     height: 66px;
-
 }
 .nameandtime .shiftedtex {
     
@@ -740,28 +776,26 @@ margin: 0px;
 }
 .commentprofileandreviews .profileandname{
     display:flex;
-    
 }
 
 .nameandtime {
 
-    margin-left: 10px;
-    margin-top: 10px;
-    width: 220px;
+margin-left: 10px;
 
+margin-top: 10px;
+
+width: 100%;
 }
 .comment .medtextsize{
-    width: 746px;
+    width: 85%;
 }
 .comment .medtextsize1{
-    width: 720px;
+    overflow: auto;
+    width: 90%;
     margin: 0px;
     margin-left: 50px;
-    
-
     height: 48px;
     color: #475569;
-
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -769,11 +803,13 @@ margin: 0px;
 }
 .comment{
     height: 160px;
+    width: 100%;
 }
 .reviewscoments {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    width: 50%;
 }
 .sectionA3 .vertical {
     height: 550px;
@@ -794,6 +830,7 @@ margin: 0px;
 }
 .mainorderpage{
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 .mainPage .section2{
@@ -825,7 +862,10 @@ I repeaaaaate this is for the last page
 aka paaaaaaaaaaaage 444444 or order page */
 
 .orderDetails {
-    width: 622px;
+    
+    margin-top: 5%;
+    width: 25%;
+    min-width: 250px;
     height: 446px;
     padding: 15px;
     border: 2px solid #E2E8F0;
@@ -844,8 +884,13 @@ aka paaaaaaaaaaaage 444444 or order page */
     margin-top: 30px;
 }
 .orderDetails .addtocardbuttonadd {
-    width: 602px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
     height: 61px;
+    margin: 0px;
+    
 
 }
 .greenrect {
@@ -871,16 +916,19 @@ line-height: normal;
 
 .mainorderpage{
     display: flex;
+    justify-content: space-around;
+    margin-top: 1%;
    
 }
 .selectall{
     display: flex;
     border-bottom: 2px solid #E2E8F0;
     gap: 20px;
-    width: 694px;
+    width: 100%;
 }
 .orderlistdetailsmainstuf{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 25px;
     margin-top: 50px;
@@ -928,8 +976,62 @@ margin-bottom: 10px;
     margin: 0px;
 }
 .textdecoratin{
+    display: flex;
     text-decoration: none;
 }
+/* 
+/////////////////////////////////////////////////////
+////////////////////contact page //////////////////// */
+
+.contact-mainPage{
+    padding: 3.5%;
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.contact-section2{
+    
+    background: #E2E8F0;
+    border-radius: 5px;
+    border: 2px solid #D9D9D9;
+    padding: 1%;
+    width: 35%;
+    min-width: 350px;
+}
+.contactposter{
+    width: 350px;
+    
+    
+}
+.FullName, .Email, .Message{
+color:#334155;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+width: auto;
+line-height: normal;
+margin: 0px;
+}
+.FullNamebox, .Emailbox{
+    
+    background-color: #E2E8F0 ;
+    width: 98%;
+    height: 60px;
+    border-radius: 5px;
+    
+    border: 2px solid #D9D9D9;
+    margin: 0px;
+    }
+    .Messagebox{
+        background-color: #E2E8F0 ;
+        width: 98%;
+        height: 240px;
+        border-radius: 5px;
+        border: 2px solid #D9D9D9;
+        margin: 0px;
+    }
+   
 
 /* ////////////////////////////////////animations for all pages*/
 .rect:hover{
@@ -942,7 +1044,7 @@ margin-bottom: 10px;
     width: 40px;
     height: 40px;
 }
-.addtocardbuttonadd:hover{
+.mainPage .addtocardbuttonadd:hover{
     height: 40px;
     box-shadow: 1px 1px 2px 2px #2caf7f;
 }
@@ -954,11 +1056,124 @@ margin-bottom: 10px;
     width: 100%;
 }
 
+/* ////////////////////////////////////////side bar elements ////////////////////// */
+
+.sideBar {
+    top: 0px;
+    right: -300px;
+    background-color: #0284C7;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+}
+#button-pressed{
+ position: absolute;
+ width: 50px;
+ height: 50px;
+ opacity: 0%;
+}
+
+body{
+    margin-right: 0px;
+}
+.SideBar-detailsmainstuf{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.SideBar-Totalprice{
+    display: flex;
+    justify-content: center;
+    background-color: #64748B;
+    border-radius: 5px;
+    height: 1500px;
+    color: #334155;
+   font-family: Inter;
+   font-size: 22px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+    
+}
+.SideBar-detailsmainstuf .selectaVariant{
+    background-color: #FACC15;
+}
+.SideBar-Price{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    color: #334155;
+   font-family: Inter;
+   font-size: 26px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+.SideBar-detailsmainstuf .namevariantAndPrice .shpingAndIncreaseDecrease{
+    justify-content: center;
+}
+.SideBar-detailsmainstuf-yourCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    background-color: #64748B;
+    width: 100%;
+    height: 50px;
+
+}
+.ProductCount{
+    margin: 0px;
+width: 91px;
+height: 48px;
+color: #475569;
+
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.MinusButton{
+    background: none;
+    border-style: none;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.PlusButton{
+    background: none;
+    border-style: none;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+}
+
+
+.SideBar-detailsmainstuf .greenrect{
+    margin-top: 15px;
+    width: 22px;
+    height: 22px;
+    background:  #22C55E;
+    border-radius: 5px;
+}
+
+
+
+
 
 /* //////////////////jjj=llll////making the reponsive */
 
 
-@media (max-width: 1400px) {    
+@media (max-width: 1400px) { 
+
+        .register {
+            display: none;
+        }
+        
+        .collaps-button{
+            display: flex;
+        }
         .textimagetoptextsize{
             font-size: 20px;
             max-width: 80%;
@@ -1024,6 +1239,27 @@ margin-bottom: 10px;
     }
 }
 @media (max-width: 750px) {
+    .footerrect{
+        display: flex;
+        min-width: 534px;
+        flex-wrap:wrap;
+    }
+    /* nav{
+        justify-content: center;
+    } */
+    .imageProduct-center{
+        display: flex;
+        justify-content: center;
+    }
+    .imageproduct{
+        
+        width: 100%;
+    }
+    .sections {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
     
     .section2{
 
@@ -1036,4 +1272,6 @@ margin-bottom: 10px;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(8,1fr);
     }
+    
+    
 }   

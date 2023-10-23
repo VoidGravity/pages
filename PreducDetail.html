@@ -11,14 +11,15 @@
 </head>
 <body>
     <nav>
-        <div class="navlogo">    
+        <div class="navlogo">            
             <a href="index.html" class="textdecoratin">
                 <img src="https://www.pixelparfait.graphics/wp-content/uploads/2023/01/AMZN-e9f942e4.png" alt="amzon lgo" width="60px" height="60px">
 
-            </a>        
-            <a href="ProductList.html">
+            </a> 
+                <a href="ProductList.html" class="searchBar-container">
                 <input class="searchBar" type="" placeholder="search">
             </a>
+            
             
         </div>
         <div class="register">
@@ -39,14 +40,70 @@
                     MAR
                 </li>
                 <li>
+                    <button id="button-pressed">waaaaa3</button>
                     <img src="shopping-cart.png" alt="shoping card" width="50px">
                 </li>
-                <li >
-                    5
+                <li class="Nav-numberCount">
+                    2
                 </li>
             </ul>
         </div>
     </nav>
+    <section class="sideBar">
+        <div>
+            <div class="SideBar-detailsmainstuf">
+                <div class="SideBar-detailsmainstuf-yourCard">
+                    <img src="shopping-cart.png" alt="shoping card" height="30px">
+                    <p class="YourCard">Your card</p>
+                </div>
+                <img src="smalimgs (1).png" alt="lproduit dyalna" height="120px">
+                <div class="namevariantAndPrice">
+                    <p class="selectaVariant">Product Name</p>
+                    <p class="SideBar-Price">44</p>
+                    <div class="shpingAndIncreaseDecrease">
+                        <div class="plus1minus">
+                            <button class="MinusButton">
+                                <img src="minus.png" alt="plus sign" width="26px" height="26px">
+                            </button>
+                            
+                            <p class="ProductCount">1</p>
+                            <button class="PlusButton">
+                                <img src="plus.png" alt="minus sign" width="26px" height="26px">
+                            </button>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="SideBar-detailsmainstuf">
+
+                <img src="smalimgs (1).png" alt="lproduit dyalna" height="120px">
+                <div class="namevariantAndPrice">
+                    <p class="selectaVariant">Product Name</p>
+                    <p class="SideBar-Price">44</p>
+                    <div class="shpingAndIncreaseDecrease">
+                        <div class="plus1minus">
+                            <button class="MinusButton">
+                                <img src="minus.png" alt="plus sign" width="26px" height="26px">
+                            </button>
+                            
+                            <p class="ProductCount">1</p>
+                            <button class="PlusButton">
+                                <img src="plus.png" alt="minus sign" width="26px" height="26px">
+                            </button>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="SideBar-Totalprice">
+                <p>total :</p>
+                <p class="value">44</p>
+                <p> USD</p>
+                
+            </div>
+        </div>
+    </section>
     <div class="mainPage">
         <div class="sectionA1">
             <div class="images">
@@ -136,11 +193,12 @@
                     </div>
                 </div>
                 <div class="addtocartbuynow">
-                    <a href="OrderPage.html" class="textdecoratin">
+                    <button class="AddToCardButtonEvent">
                         <div class="addtocardbuttonadd">
                             <p class="textaddtocat">Add to Cart!</p>
                         </div>
-                    </a>
+                    </button>
+                    
                     <a href="OrderPage.html" class="textdecoratin">
                         <div class="addtocardbuttonbuy">
                             <p class="textbuynow">Buy Now!</p>
@@ -351,10 +409,16 @@
                 <li>
                     FQA
                 </li>
+                <li>
+                    <a href="contactPage.html" class="contactUs-footer-text">
+                        Contact us
+                    </a>
+                </li>
             </ul>
             <p>Copy right 2023</p>
         </div>
     </footer>
-    
+    <script src="logic.js"></script>
 </body>
+
 </html>
