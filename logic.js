@@ -186,4 +186,38 @@ function HideProducttags() {
 }
 filterlist?.addEventListener('click',HideProducttags);
 
+//////////contatc with regax
+var contact= document.getElementsByClassName('contact-box')[0];
+var submit = document.getElementsByClassName("submit")[0];
+var fullName = document.getElementsByClassName("FullNamebox")[0];
+var email = document.getElementsByClassName("Emailbox")[0];
+var message = document.getElementsByClassName("Messagebox")[0];
+
+const ourRegax = /^[a-zA-Z0-9.-_]+@[a-zA-Z]+\.[a-zA-Z]{2,}$/;
+contact.addEventListener('submit',checker);
+function checker(event) {
+    event.preventDefault();
+    if (ourRegax.test(email.value)) {
+        alert("eyyyy");
+    } else {
+        alert("noooo");
+    }
+}
+
+
+//////////contact not regax
+
+// function wachbse7 (e){
+//     e.preventDefault();
+//     console.log('ssss');
+    
+//     if (fullName.value === ""|| email.value === ""|| message.value=== "") {
+//         alert("Ta la mat7m9nich,D5al m3lomat.");
+//         console.log('zzzzzz');
+//     }
+//     else if (email.value) {
+
+//     }
+// }
+// submit.addEventListener('click',wachbse7);
 

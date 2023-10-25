@@ -1137,7 +1137,7 @@ margin: 0px;
 }
 .ProductHer{
     overflow: auto;
-    max-height: 1000px;
+    max-height: 800px;
 }
 #button-pressed{
  position: absolute;
