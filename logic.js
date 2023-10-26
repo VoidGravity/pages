@@ -196,11 +196,16 @@ var message = document.getElementsByClassName("Messagebox")[0];
 const ourRegax = /^[a-zA-Z0-9.-_]+@[a-zA-Z]+\.[a-zA-Z]{2,}$/;
 contact.addEventListener('submit',checker);
 function checker(event) {
-    event.preventDefault();
-    if (ourRegax.test(email.value)) {
-        alert("eyyyy");
-    } else {
-        alert("noooo");
+    
+    if (!ourRegax.test(email.value)) {
+
+        alert("This Email is not valid");
+        event.preventDefault();
+    } else if (fullName.value===""){
+        alert("Please enter a valid full name");
+    }
+    else if (message.value===""){
+        alert("Please enter a valid message");
     }
 }
 
